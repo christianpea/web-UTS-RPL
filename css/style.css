@@ -1,0 +1,238 @@
+/* Awal style index.html */
+.container-index {
+  padding-top: 20%;
+}
+
+.button-login {
+  padding-top: 20%;
+}
+#img-index {
+  width: 225px;
+}
+
+#welcome-text {
+  padding-top: 2em;
+}
+/* Akhir Style index.html */
+
+/* Awal Style role.html */
+#button-mahasiswa {
+  margin: 3%;
+}
+
+#role-text {
+  padding-bottom: 2em;
+}
+
+.img-role {
+  padding-top: 20%;
+}
+
+#img-role {
+  width: 225px;
+}
+/* Akhir Style role.html */
+
+/* Awal Style login-mahasiswa.html */
+#logo-profile {
+  width: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#button-login {
+  margin: 3%;
+  margin-top: 8%;
+}
+/* Akhir Style login-mahasiswa.html */
+
+/* Awal Style regis.html */
+.back-regis {
+  width: 8%;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 15%;
+}
+
+.form-control {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Akhir Style regis.html */
+
+/* Awal Style dashboard-mahasiswa.html */
+.back-home {
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+#back-button {
+  width: 8%;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+
+#home-button {
+  width: 8%;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+/* HEADER (WAJIB TAMBAH) */
+.header-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 60px; /* ganti dari padding-top */
+  padding: 0 20px;
+}
+
+/* TITLE */
+.title-matkul {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0; /* INI YANG FIX */
+}
+
+/* TOMBOL RIWAYAT (WAJIB TAMBAH) */
+.btn-riwayat {
+  text-decoration: none;
+  font-size: 14px;
+  color: #007bff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-riwayat:hover {
+  background: #e7f1ff;
+}
+
+.btn-riwayat:active {
+  transform: scale(0.95);
+}
+
+/* CONTAINER */
+.container-dashboardmhs {
+  margin: auto;
+  margin-top: 80px; /* TAMBAHKAN INI */
+
+  width: 22em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 20px 20px 20px;
+}
+
+/* CARD */
+.card {
+  display: block;
+  text-decoration: none;
+  padding: 12px;
+
+  background: #f5f5f5;
+  color: #007bff;
+
+  border-radius: 10px;
+  transition: all 0.25s ease;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.card:active {
+  transform: scale(0.97);
+  background: #dbeafe;
+}
+
+/* SECTION RIWAYAT DI BAWAH */
+.riwayat-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* TITLE */
+.riwayat-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn-riwayat-bottom {
+  display: inline-block;
+  text-decoration: none;
+
+  background: #007bff;
+  color: white;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  transition: all 0.2s ease;
+}
+
+/* HOVER */
+.btn-riwayat-bottom:hover {
+  background: #0056b3;
+}
+
+/* CLICK */
+.btn-riwayat-bottom:active {
+  transform: scale(0.95);
+}
+/* akhir style dashboard-mahasiswa */
+
+/* Awal Style absensi.html */
+#button-absensi {
+  margin-left: 10%;
+  margin: 10%;
+  padding: 8%;
+  width: 18rem;
+}
+.card {
+  margin: 10%;
+}
+
+.back-absensi {
+  width: 8%;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+/* Akhir Style absensi.html */
+
+/* Awal Style daftar-mahasiswa.html */
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  color: #222222;
+}
+
+.text-hadir {
+  color: green;
+}
+
+.text-alpa {
+  color: red;
+}
+
+#tabel-mahasiswa {
+  margin-top: 20%;
+}
+
+
+/* Akhir Style daftar-mahasiswa.html */
